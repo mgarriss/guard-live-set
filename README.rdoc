@@ -1,0 +1,1 @@
+Converts Ableton Live .als files to XML as their saved. The point of this is so that you can use git with your .als files.  Git is a lot more useful with line based text files then binary files.  Just gzip the .xml files and rename them to .als to have Ableton Live load them.
