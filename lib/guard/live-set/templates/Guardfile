@@ -1,0 +1,3 @@
+guard 'live-set' do
+  watch(/(.*).als/) 
+end
