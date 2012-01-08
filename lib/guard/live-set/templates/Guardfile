@@ -1,3 +1,5 @@
+# require 'rb-fsevent'
+
 guard 'live-set' do
   watch(/(.*).als/) 
 end
