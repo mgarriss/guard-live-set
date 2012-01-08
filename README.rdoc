@@ -1,1 +1,20 @@
 Converts Ableton Live .als files to XML as their saved. The point of this is so that you can use git with your .als files.  Git is a lot more useful with line based text files then binary files.  Just gzip the .xml files and rename them to .als to have Ableton Live load them.
+
+== Usage
+
+  gem install guard
+  gem install guard-live-set
+  cd ~/Path/To/Root/Of/Ableton/LiveSets
+  guard init live-set
+  guard
+
+== Author
+
+* {Michael Garriss}[http://github.com/mgarriss] <mgarriss at gmail.com>
+* The elegantly simple algorithm and code for the elementary automata is from Jesse Merriman written for Ruby Quiz 134: Cellular Automata. see: http://www.rubyquiz.com/quiz134.html
+
+== License
+
+Apache 2.0, See the file LICENSE
+
+Copyright (c) 2012 Michael Garriss
